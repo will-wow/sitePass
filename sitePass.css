@@ -1,0 +1,108 @@
+html{height:100%;}
+
+body {
+    background-color:#f4f4f7;
+    font-family: Raleway, sans-serif;
+	font-weight: 700;
+    color:black;
+    height:100%;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container {
+	margin:0 auto;
+    width:300px;
+    background-color:#ebebf0;
+    min-height:100%;
+}
+
+form{
+    width:90%;
+    margin:0 auto;
+}
+
+h2 {
+	font-size: 3.15em;
+    line-height:1em;
+	text-align: center;
+    font-weight: 200;
+    margin:0;
+    padding: 20px 0 0;
+}
+h3 {
+	font-size: 1.5em;
+    line-height:1em;
+	text-align: center;
+    font-weight: 200;
+    max-width:90%;
+    margin: 0 auto;
+}
+
+p{
+	margin: .75em 0 0 0;
+}
+
+input{
+    width:100%;
+    display: block;
+    text-indent:.5em;
+    border: 1px solid #cccccc;
+    padding:.25em 0;
+    margin:.25em 0 .5em 0;
+    font-size:1.05em;
+}
+
+#txt_site{
+	width:70%;
+	float:left;
+}
+
+#num_iteration{
+	width:25%;
+	float:right;
+}
+
+#lab_site{
+	width:50%;
+	float:left;
+}
+
+#lab_iteration{
+	width:50%;
+	float:right;
+	text-align: right;
+}
+
+#btn_generate {
+    font-family:Raleway, sans-serif;
+    font-weight:200;
+	font-size: 1.15em;
+    margin: .75em 0;
+    padding:.75em;
+    color: #fef4e9;
+	border: solid 1.5px #da7c0c;
+	background: #f78d1d;
+}
+
+#btn_generate:hover {background: #f47c20;}
+
+.link p{
+    color:#f78d1d;
+    text-align:center;
+    padding-bottom:.75em;
+}
+.link:hover {color: #f47c20;}
+
+/* comment this part out for extension */
+@media screen and (max-width: 600px) {
+.container{
+    width:100%;
+}
+input{
+    padding:.5em 0;
+}
+}
