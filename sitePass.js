@@ -1,7 +1,7 @@
  /*
-  Copyright (C) 2013  Will Lee-Wagner
+  Copyright (C) 2014  Will Lee-Wagner
   whentheresawill.net
-  2913-11-29
+  2014-05-19
   
   This script generates a strong password from a seed site, password,
   and number. It uses outside scripts for hashing and random number 
@@ -27,7 +27,7 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
+(function() {
 //check if a value is in an array
 function isInArray(arrayName,character) {
   return arrayName.indexOf(character) in arrayName;
@@ -201,3 +201,4 @@ var convTable = conversionTables();
 document.addEventListener('DOMContentLoaded', function () {
   document.getElementById("btn_generate").addEventListener('click', GenPassword, false);
 });
+})();
