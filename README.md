@@ -6,6 +6,6 @@ sitePass is another solution. It works best as a Chrome extension that lives in 
 
 You can use the web version anywhere (including your smartphone or tablet), and install the extension (which pulls the url from your current tab) for your personal computers.
 
-[For more information](http://whentheresawill.net/about-sitePass)
-[Chrome Extension](https://chrome.google.com/webstore/detail/sitepass/knipommgdbefafccijppfjoiokhcedgn)
-[Web Version](http://whentheresawill.net/sitePass)
+[For more information](http://whentheresawill.net/about-sitePass)  
+[Chrome Extension](https://chrome.google.com/webstore/detail/sitepass/knipommgdbefafccijppfjoiokhcedgn)  
+[Web Version](http://whentheresawill.net/sitePass)  
