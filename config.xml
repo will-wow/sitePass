@@ -9,7 +9,7 @@
     <description>A unique password generator</description>
     <author email="will@whentheresawill.net"
     href="http://whentheresawill.net">Will</author>
-    <content src="sitePass.html" />
+    <content src="index.html" />
     <preference name="permissions" value="none" />
     <preference name="android-targetSdkVersion" value="17" />
     
