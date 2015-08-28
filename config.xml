@@ -3,13 +3,14 @@
     xmlns="http://www.w3.org/ns/widgets" 
     xmlns:gap="http://phonegap.com/ns/1.0"
     id="net.whentheresawill.sitepass" 
-    version="1.0.0.1">
+    version="1.0.2">
     
     <name>sitePass</name>
     <description>A unique password generator</description>
     <author email="will@whentheresawill.net"
     href="http://whentheresawill.net">Will</author>
     <content src="index.html" />
+    <preference name='phonegap-version' value='cli-5.1.1' />
     <preference name="permissions" value="none" />
     <preference name="android-targetSdkVersion" value="17" />
     
